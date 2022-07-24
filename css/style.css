@@ -1,0 +1,68 @@
+:root {
+  --main-color: #4468e2;
+  --heading-color: #0f0f0f;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--heading-color);
+}
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+/**************** Start Header *****************/
+.nav {
+  background-color: white;
+  height: 60px;
+}
+.nav-container {
+  justify-content: space-between;
+}
+.logo {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 93px;
+}
+.nav .menu {
+  gap: 4.6rem;
+  align-items: center;
+}
+.connect-btn {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.connect-btn a:link,
+.connect-btn a:visited {
+  background-color: var(--main-color);
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+  color: white;
+}
