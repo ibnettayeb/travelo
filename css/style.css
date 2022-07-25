@@ -11,9 +11,10 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Proxima nova alt", sans-serif;
   line-height: 1.6;
   font-weight: 400;
+  height: 400rem;
 }
 ul {
   list-style: none;
@@ -65,4 +66,108 @@ a:visited {
   padding: 0.5rem 2rem;
   border-radius: 100px;
   color: white;
+}
+
+/**************** Start Hero *****************/
+
+.hero {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/hero.png");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 18px;
+  justify-content: center;
+  align-items: center;
+}
+.hero .content {
+  text-align: center;
+}
+.hero .content h1 {
+  font-size: 5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.hero .content p {
+  font-size: 2rem;
+  color: white;
+  width: 36%;
+  margin: 0 auto;
+}
+.hero .search {
+  justify-content: center;
+  margin-top: 5.2rem;
+}
+.form-container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  align-items: center;
+  gap: 2rem;
+}
+.form-container label {
+  font-size: 1.8rem;
+  color: var(--heading-color);
+}
+.form-container input {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border: none;
+  font-family: "Proxima nova alt", sans-serif;
+}
+.form-container input:focus {
+  outline: none;
+}
+.form-container .form {
+  border-right: 2px solid #eee;
+}
+.form-container .form:last-of-type {
+  border-right: none;
+}
+.form-container .explore-btn {
+  background-color: var(--main-color);
+  padding: 2rem 2.4rem;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/**************** Start Features *****************/
+
+.features {
+  margin-top: 12.8rem;
+}
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+}
+.feature {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15);
+  padding: 2.4rem;
+  border-radius: 10px;
+}
+.feature .icon {
+  width: 7rem;
+  height: 7rem;
+  background-color: #ebf0fe;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature .icon img {
+  width: 60%;
+}
+.feature h3 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.feature p {
+  font-size: 1.8rem;
 }
