@@ -141,6 +141,7 @@ a:visited {
 
 .features {
   margin-top: 12.8rem;
+  margin-bottom: 12.8rem;
 }
 .features-container {
   display: grid;
@@ -169,5 +170,100 @@ a:visited {
   margin: 2rem 0;
 }
 .feature p {
+  font-size: 1.8rem;
+}
+
+/**************** Start Places *****************/
+.places {
+  background-color: #f1faff;
+  padding: 6.4rem 0;
+}
+.places-container h2 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+.places-header {
+  text-align: center;
+}
+.tabs {
+  border-bottom: 1px solid #eee;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6.4rem;
+  gap: 3.6rem;
+  width: fit-content;
+}
+.tabs li {
+  font-size: 2rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.tabs li.active::before {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px;
+}
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.6rem;
+  position: relative;
+}
+
+.dots {
+  position: absolute;
+  top: -46px;
+  left: -49px;
+  width: 130px;
+  z-index: 1;
+}
+
+.place {
+  z-index: 2;
+  position: relative;
+}
+.place img {
+  width: 100%;
+  z-index: 2;
+}
+.place h3 {
+  font-size: 3rem;
+}
+.place p {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.place-footer ul {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.place-footer li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1c4961;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place-footer img {
+  width: 60%;
+}
+.place-footer div:first-child,
+.place-footer div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.place-footer span {
+  font-size: 3rem;
+}
+.place-footer p {
   font-size: 1.8rem;
 }
