@@ -42,6 +42,8 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width: 41.25em) {
+}
 /* 
     Spacing system in px:
     2 / 4 / 8 / 12 / 16 / 20 / 24 / 32 / 48 / 64 / 80 / 96 / 128
