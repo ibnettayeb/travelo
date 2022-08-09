@@ -29,6 +29,8 @@ a:visited {
 .container {
   max-width: 130rem;
   margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .flex {
   display: flex;
@@ -319,7 +321,7 @@ a:visited {
   border-radius: 6px;
 }
 .customer p {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
 }
 .customer .customer-info {
   display: flex;
@@ -328,17 +330,21 @@ a:visited {
   align-items: center;
 }
 .customer .name {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 .customer span {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #848484;
 }
-
+.customer img.customer-img {
+  width: 55px;
+  height: 55px;
+}
 /**************** Start footer *****************/
 .footer {
-  margin: 12.8rem 0;
+  margin-top: 12.8rem;
+  margin-bottom: 6.4rem;
 }
 .footer .content {
   background-color: #e1e8f8;
@@ -357,11 +363,3 @@ a:visited {
   align-items: center;
   gap: 2.4rem;
 }
-
-/* 
-    Spacing system in px:
-    2 / 4 / 8 / 12 / 16 / 20 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-    Font size in px:
-    10 / 12 / 14 / 16 / 18 /  20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-*/

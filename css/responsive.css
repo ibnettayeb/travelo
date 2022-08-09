@@ -1,0 +1,51 @@
+@media (max-width: 70.75em) {
+  .features-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 66.25em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 60.37em) {
+  .customers .content {
+    grid-template-columns: 1fr;
+  }
+  .copyright {
+    font-size: 1.6rem;
+  }
+  .footer .links {
+    display: none;
+  }
+  .blog-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 51.5em) {
+  .hero {
+    height: 800px;
+  }
+  .hero .form-container {
+    flex-direction: column;
+    width: 60%;
+    background-color: transparent;
+  }
+  .hero .form-container .form {
+    width: 100%;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 6px;
+  }
+  .places-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* 
+    Spacing system in px:
+    2 / 4 / 8 / 12 / 16 / 20 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    Font size in px:
+    10 / 12 / 14 / 16 / 18 /  20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
