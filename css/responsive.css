@@ -27,6 +27,9 @@
   .hero {
     height: 800px;
   }
+  .hero .content p {
+    width: 90%;
+  }
   .hero .form-container {
     flex-direction: column;
     width: 60%;
@@ -43,6 +46,18 @@
   }
 }
 @media (max-width: 41.25em) {
+  .menu {
+    display: none;
+  }
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+  .places-grid {
+    grid-template-columns: 1fr;
+  }
+  .tabs {
+    display: none;
+  }
 }
 /* 
     Spacing system in px:

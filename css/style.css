@@ -43,6 +43,7 @@ a:visited {
 }
 .nav-container {
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   height: 60px;
@@ -52,6 +53,7 @@ a:visited {
 .logo img {
   width: 93px;
 }
+
 .menu {
   gap: 4.6rem;
   align-items: center;
@@ -68,10 +70,11 @@ a:visited {
   border-radius: 100px;
   color: white;
 }
-
 .nav .icon {
+  font-size: 2rem;
   display: none;
 }
+
 /**************** Start Hero *****************/
 
 .hero {
